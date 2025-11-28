@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# Packaging / build
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Byte-compiled / cache
+.pytest_cache/
+.mypy_cache/
+.pyre/
+.pdm.toml
+
+# Coverage / reports
+.coverage*
+htmlcov/
+coverage.xml
+
+# Logs
+*.log
+
+# Editors/OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local config
+*.local
