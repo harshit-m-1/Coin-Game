@@ -1,0 +1,8 @@
+# Coin Collector runtime dependencies
+# Pin websockets to major version 12 to match current API usage
+websockets>=12,<13
+pygame>=2.5
+
+# (Optional) Uncomment for development tooling
+# black
+# mypy
