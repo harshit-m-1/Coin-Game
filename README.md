@@ -1,4 +1,4 @@
-# 🎮 Coin Collector - Multiplayer State Synchronization Game
+# Coin Collector - Multiplayer State Synchronization Game
 
 A real-time multiplayer game demonstrating client-server architecture with authoritative server design, network latency simulation, and entity interpolation.
 
@@ -6,7 +6,7 @@ A real-time multiplayer game demonstrating client-server architecture with autho
 ![WebSocket](https://img.shields.io/badge/Network-WebSocket-green.svg)
 ![Pygame](https://img.shields.io/badge/Graphics-Pygame-red.svg)
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
 - [Features](#features)
@@ -17,7 +17,7 @@ A real-time multiplayer game demonstrating client-server architecture with autho
 - [Technical Details](#technical-details)
 - [Design Decisions](#design-decisions)
 
-## 🎯 Overview
+## Overview
 
 Coin Collector is a multiplayer game where players compete to collect coins that spawn randomly on the map. The game demonstrates:
 
@@ -26,7 +26,7 @@ Coin Collector is a multiplayer game where players compete to collect coins that
 - **Entity Interpolation**: Smooth rendering despite network delays
 - **Client-Side Prediction**: Responsive local player movement
 
-## ✨ Features
+## Features
 
 ### Game Features
 
@@ -44,7 +44,7 @@ Coin Collector is a multiplayer game where players compete to collect coins that
 - **Client-Side Prediction**: Local player responds immediately to input
 - **WebSocket Communication**: Real-time bidirectional messaging
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
@@ -75,7 +75,7 @@ Coin Collector is a multiplayer game where players compete to collect coins that
 5. **Latency Delay**: 200ms artificial delay before client receives
 6. **Client Rendering**: Client interpolates and renders smooth movement
 
-## 📦 Installation
+## Installation
 
 ### Prerequisites
 
@@ -107,7 +107,7 @@ Coin Collector is a multiplayer game where players compete to collect coins that
    pip install -r requirements.txt
    ```
 
-## 🎮 Running the Game
+## Running the Game
 
 ### Step 1: Start the Server
 
@@ -157,7 +157,7 @@ python client/game_client.py
 - Collect coins to earn points
 - The player with the most points after 2 minutes wins!
 
-## 🎮 Controls
+## Controls
 
 | Key   | Action     |
 | ----- | ---------- |
@@ -167,7 +167,7 @@ python client/game_client.py
 | D / → | Move Right |
 | ESC   | Quit Game  |
 
-## 🔧 Technical Details
+## Technical Details
 
 ### Network Protocol
 
@@ -234,7 +234,7 @@ Clients **cannot**:
 - Claim coin pickups directly
 - Modify scores
 
-## 📝 Design Decisions
+## Design Decisions
 
 ### Why WebSocket?
 
@@ -263,7 +263,7 @@ Clients **cannot**:
 2. **Packet Loss**: TCP/WebSocket ensures delivery
 3. **Disconnection**: Server removes player, notifies others
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 coin_collector/
@@ -285,17 +285,9 @@ coin_collector/
 └── README.md
 ```
 
-## 🎥 Video Demonstration
+ 
 
-For the video demonstration, show:
-
-1. **Two client windows side by side**
-2. **Smooth movement** despite 200ms latency
-3. **Coin collection** with server validation
-4. **Score synchronization** across clients
-5. **Game over screen** with winner
-
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### "Import could not be resolved"
 
@@ -314,4 +306,4 @@ This is intentional! The 200ms latency simulation is working. Watch how interpol
 Make sure to run clients in **separate terminals**.
 
 ## AI Disclosure
-Used ChatGPT to make this readme more readable
+Used ChatGPT to make this readme more readable.
