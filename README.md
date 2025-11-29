@@ -285,8 +285,6 @@ coin_collector/
 └── README.md
 ```
 
- 
-
 ## Troubleshooting
 
 ### "Import could not be resolved"
@@ -297,13 +295,10 @@ Run `pip install -r requirements.txt` to install dependencies.
 
 Make sure the server is running before starting clients.
 
-### Laggy movement
-
-This is intentional! The 200ms latency simulation is working. Watch how interpolation keeps remote players smooth.
-
 ### Only one client connects
 
 Make sure to run clients in **separate terminals**.
 
 ## AI Disclosure
+
 Used ChatGPT to make this readme more readable.
