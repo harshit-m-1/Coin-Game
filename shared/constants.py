@@ -1,6 +1,6 @@
 """
 Shared constants for the Coin Collector game.
-Used by both server and client. Edited to look a bit more human.
+Used by both server and client modules.
 """
 
 # =============================================================================

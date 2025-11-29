@@ -1,7 +1,6 @@
 """
 Main game client for Coin Collector.
-Combines Pygame rendering, networking and interpolation.
-This file comments were hand-tweaked to sound more casual.
+Integrates Pygame rendering, networking and interpolation.
 """
 
 import pygame

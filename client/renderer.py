@@ -1,7 +1,6 @@
 """
 Pygame renderer for Coin Collector.
-Draws players, coins, HUD and simple effects. Comments edited for a
-more human, slightly imperfect tone.
+Draws players, coins, HUD and simple visual effects.
 """
 
 import pygame

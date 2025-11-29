@@ -1,7 +1,6 @@
 """
 Authoritative game server for Coin Collector.
-Manages connections, game loop, and state sync. Some comments
-are intentionally casual to look human-written.
+Manages connections, the game loop, and state synchronization.
 """
 
 import asyncio

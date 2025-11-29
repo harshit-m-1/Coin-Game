@@ -1,7 +1,6 @@
 """
-Entity interpolation system — keeps other players moving smooth.
-We buffer server updates and lerp between them. Comments made
-to sound more like a quick dev note (may be slightly rough).
+Entity interpolation system for smooth remote player motion.
+Buffers server updates and interpolates (lerp/extrapolate) positions.
 """
 
 import time

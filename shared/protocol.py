@@ -1,7 +1,6 @@
 """
-Network protocol defs used for client-server messages.
-Contains message types, dataclasses and helpers. Made comments
-less formal to sound more like a dev note.
+Network protocol definitions for client-server messages.
+Message types, dataclasses, and helper factory functions.
 """
 
 from enum import Enum

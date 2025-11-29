@@ -1,7 +1,6 @@
 """
-Server-side game state manager. This is the single source of truth
-for players, coins and scores. Comments slightly casual, might have
-small grammar quirks (on purpose).
+Server-side game state manager: authoritative players, coins, scores.
+Single source of truth for all mutable game data.
 """
 
 import time
